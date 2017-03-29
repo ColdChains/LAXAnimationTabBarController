@@ -10,23 +10,10 @@ import UIKit
 
 let TabBarTitleArray = ["首页", "关注", "社区", "我的"]
 
-class RootViewController: UITabBarController, UITabBarControllerDelegate, LAXTabBarDelegate {
+class RootViewController: LAXAnimationTabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.delegate = self
-        
-        let tabBar = LAXTabBar.init(delegate: self)
-        self.setValue(tabBar, forKey: "tabBar")
-        
-        self.tabBar.barTintColor = UIColor.red
-        self.tabBar.tintColor = UIColor.orange
-        if #available(iOS 10.0, *) {
-            self.tabBar.unselectedItemTintColor = UIColor.white
-        } else {
-            // Fallback on earlier versions
-        }
         
         self.addViewController()
         
@@ -38,7 +25,7 @@ class RootViewController: UITabBarController, UITabBarControllerDelegate, LAXTab
         let vc3 = UIViewController()
         let vc4 = CommuntityViewController()
         let vc5 = MineViewController()
-
+        
         vc1.title = "首页"
         vc2.title = "关注"
         vc4.title = "社区"
@@ -70,18 +57,15 @@ class RootViewController: UITabBarController, UITabBarControllerDelegate, LAXTab
         nvc5.tabBarItem.selectedImage = UIImage.init(named: "btn_user_selected")
         
         nvc3.tabBarItem.isEnabled = false
+        
+        self.plusButtonImage = UIImage.init(named: "head")
         self.viewControllers = [nvc1, nvc2, nvc3, nvc4, nvc5]
         self.selectedIndex = 0
     }
     
-    //delegate
-    func tabBarController(_ tabBarController: UITabBarController, animationControllerForTransitionFrom fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return LAXAnimationedTransition()
-    }
-    
-    func tabBarDidClickPlusButton(_: LAXTabBar) {
+    override func animationTabBarDidClickPlusButton(_: LAXAnimationTabBar) {
         let vc = ViewController()
         self.present(vc, animated: true, completion: nil)
     }
-    
+        
 }

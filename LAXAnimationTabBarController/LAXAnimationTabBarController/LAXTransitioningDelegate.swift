@@ -10,7 +10,7 @@ import UIKit
 
 class LAXTransitioningDelegate: NSObject, UIViewControllerTransitioningDelegate {
     
-    private lazy var customAnimator = LAXAnimationedTransition()
+    private lazy var customAnimator = LAXAnimationedTransition(titleArray: TabBarTitleArray)
     // 提供present的时候使用到的动画执行对象
     func animationController(forPresentedController presented: UIViewController, presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return customAnimator

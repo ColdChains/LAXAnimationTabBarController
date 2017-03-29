@@ -10,6 +10,13 @@ import UIKit
 
 class LAXAnimationedTransition: NSObject, UIViewControllerAnimatedTransitioning {
     
+    private var titleArray: Array<String> = []
+    
+    init(titleArray: Array<String>) {
+        super.init()
+        self.titleArray = titleArray
+    }
+    
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.5
     }
@@ -32,8 +39,8 @@ class LAXAnimationedTransition: NSObject, UIViewControllerAnimatedTransitioning 
         var x = UIScreen.main.bounds.size.width
         if let t1 = fromVC?.title {
             if let t2 = toVC?.title {
-                if let i = TabBarTitleArray.index(of: t1) {
-                    if let j = TabBarTitleArray.index(of: t2) {
+                if let i = titleArray.index(of: t1) {
+                    if let j = titleArray.index(of: t2) {
                         if i > j {
                             x = -x
                         }

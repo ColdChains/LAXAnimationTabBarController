@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5760AADD1E8B8734005E08DF /* LAXAnimationTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760AADC1E8B8734005E08DF /* LAXAnimationTabBarController.swift */; };
 		57E5E5F11E8A65280069BD4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E5F01E8A65280069BD4D /* AppDelegate.swift */; };
 		57E5E5F31E8A65280069BD4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E5F21E8A65280069BD4D /* ViewController.swift */; };
 		57E5E5F61E8A65280069BD4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E5E5F41E8A65280069BD4D /* Main.storyboard */; };
 		57E5E5F81E8A65280069BD4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E5E5F71E8A65280069BD4D /* Assets.xcassets */; };
 		57E5E5FB1E8A65280069BD4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E5E5F91E8A65280069BD4D /* LaunchScreen.storyboard */; };
 		57E5E6061E8A66ED0069BD4D /* LAXAnimationedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E6031E8A66ED0069BD4D /* LAXAnimationedTransition.swift */; };
-		57E5E6071E8A66ED0069BD4D /* LAXInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E6041E8A66ED0069BD4D /* LAXInteractiveTransition.swift */; };
-		57E5E6081E8A66ED0069BD4D /* LAXTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E6051E8A66ED0069BD4D /* LAXTransitioningDelegate.swift */; };
-		57E5E60A1E8A67160069BD4D /* LAXTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E6091E8A67160069BD4D /* LAXTabBar.swift */; };
+		57E5E60A1E8A67160069BD4D /* LAXAnimationTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E6091E8A67160069BD4D /* LAXAnimationTabBar.swift */; };
 		57E5E6111E8A67360069BD4D /* AttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E60B1E8A67360069BD4D /* AttentionViewController.swift */; };
 		57E5E6121E8A67360069BD4D /* CommuntityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E60C1E8A67360069BD4D /* CommuntityViewController.swift */; };
 		57E5E6131E8A67360069BD4D /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5E60D1E8A67360069BD4D /* LiveViewController.swift */; };
@@ -25,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5760AADC1E8B8734005E08DF /* LAXAnimationTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAXAnimationTabBarController.swift; sourceTree = "<group>"; };
 		57E5E5ED1E8A65280069BD4D /* LAXAnimationTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAXAnimationTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E5E5F01E8A65280069BD4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57E5E5F21E8A65280069BD4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,9 +33,7 @@
 		57E5E5FA1E8A65280069BD4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57E5E5FC1E8A65280069BD4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57E5E6031E8A66ED0069BD4D /* LAXAnimationedTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAXAnimationedTransition.swift; sourceTree = "<group>"; };
-		57E5E6041E8A66ED0069BD4D /* LAXInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAXInteractiveTransition.swift; sourceTree = "<group>"; };
-		57E5E6051E8A66ED0069BD4D /* LAXTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAXTransitioningDelegate.swift; sourceTree = "<group>"; };
-		57E5E6091E8A67160069BD4D /* LAXTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAXTabBar.swift; sourceTree = "<group>"; };
+		57E5E6091E8A67160069BD4D /* LAXAnimationTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAXAnimationTabBar.swift; sourceTree = "<group>"; };
 		57E5E60B1E8A67360069BD4D /* AttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttentionViewController.swift; sourceTree = "<group>"; };
 		57E5E60C1E8A67360069BD4D /* CommuntityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommuntityViewController.swift; sourceTree = "<group>"; };
 		57E5E60D1E8A67360069BD4D /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
@@ -94,10 +92,9 @@
 		57E5E6021E8A654F0069BD4D /* LAXAnimationTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				57E5E6091E8A67160069BD4D /* LAXTabBar.swift */,
+				57E5E6091E8A67160069BD4D /* LAXAnimationTabBar.swift */,
+				5760AADC1E8B8734005E08DF /* LAXAnimationTabBarController.swift */,
 				57E5E6031E8A66ED0069BD4D /* LAXAnimationedTransition.swift */,
-				57E5E6041E8A66ED0069BD4D /* LAXInteractiveTransition.swift */,
-				57E5E6051E8A66ED0069BD4D /* LAXTransitioningDelegate.swift */,
 			);
 			path = LAXAnimationTabBarController;
 			sourceTree = "<group>";
@@ -174,17 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E5E6081E8A66ED0069BD4D /* LAXTransitioningDelegate.swift in Sources */,
 				57E5E6151E8A67360069BD4D /* MineViewController.swift in Sources */,
 				57E5E6161E8A67360069BD4D /* RootViewController.swift in Sources */,
 				57E5E6121E8A67360069BD4D /* CommuntityViewController.swift in Sources */,
-				57E5E60A1E8A67160069BD4D /* LAXTabBar.swift in Sources */,
+				57E5E60A1E8A67160069BD4D /* LAXAnimationTabBar.swift in Sources */,
 				57E5E5F31E8A65280069BD4D /* ViewController.swift in Sources */,
 				57E5E6061E8A66ED0069BD4D /* LAXAnimationedTransition.swift in Sources */,
 				57E5E6111E8A67360069BD4D /* AttentionViewController.swift in Sources */,
 				57E5E5F11E8A65280069BD4D /* AppDelegate.swift in Sources */,
 				57E5E6131E8A67360069BD4D /* LiveViewController.swift in Sources */,
-				57E5E6071E8A66ED0069BD4D /* LAXInteractiveTransition.swift in Sources */,
+				5760AADD1E8B8734005E08DF /* LAXAnimationTabBarController.swift in Sources */,
 				57E5E6141E8A67360069BD4D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +341,7 @@
 				57E5E6011E8A65280069BD4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
